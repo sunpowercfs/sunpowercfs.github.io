@@ -170,7 +170,7 @@ a:hover {
 	}
 
 	.menu {
-		position: absolute;
+		/* position: absolute; */
 		left: 0;
 		right: 0;
 		background: #fff;
