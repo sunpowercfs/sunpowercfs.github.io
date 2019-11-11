@@ -585,7 +585,7 @@ a:hover {
 
 /* --- footer --- */
 .footer {
-	background:#24292e;
+	background:#1a1c27;
 	padding:15px 22px;
 }
 
@@ -740,6 +740,25 @@ ul.social-network li a {
   -webkit-box-shadow: none;
 }
 
+.img-responsive{
+  max-height: 280px;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel {
+  height:500px;
+}
+
 .portfolio-items > li {
   float: left;
   padding: 0;
@@ -750,7 +769,7 @@ ul.social-network li a {
 
 .portfolio-item {
 	margin: 0;
-	padding:0;
+	padding:2px;
 }
 
 .overlay {
