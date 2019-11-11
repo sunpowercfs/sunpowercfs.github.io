@@ -393,6 +393,10 @@ a:hover {
   width: 20%;
 }
 
+.navbar-collapse.in {
+  display: block !important;
+}
+
 .partners ul li a img {
 	margin-top:50px;
 }
