@@ -88,7 +88,7 @@ a:hover {
 
 .breadcrumb li {
    text-transform:uppercase;
-   margin-top:125px;
+   margin-top:34px;
    font-weight:600;
 }
 
@@ -96,7 +96,7 @@ a:hover {
   Menu and Navigation
 ============================ */
 .navigation  {
-	background-color:#fff;
+	background-color:#f8f8f8;
 	padding:0;
 }
 
@@ -114,7 +114,7 @@ a:hover {
 }
 
 .menu {
-	font-size:12px;
+	font-size:13px;
 	float:right;
 	text-transform:uppercase;
 	font-weight:700;
@@ -122,6 +122,9 @@ a:hover {
 
 .menu ul.nav-tabs li {
 	color:#000;
+}
+.navbar-brand{
+  padding: 9px 15px;
 }
 
 .nav-tabs {
@@ -134,7 +137,7 @@ a:hover {
 .nav-tabs > li > a {
 	border-radius:0;
 	color:#333;
-	padding:30px;
+	padding:20px;
 }
 
 .nav-tabs > li > a:hover {
@@ -170,7 +173,7 @@ a:hover {
 	}
 
 	.menu {
-		/* position: absolute; */
+	 position: absolute;
 		left: 0;
 		right: 0;
 		background: #fff;
@@ -208,7 +211,7 @@ a:hover {
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: 50px;
 }
 
 #main-slider .carousel h2 {
@@ -589,8 +592,9 @@ a:hover {
 
 /* --- footer --- */
 .footer {
-	background:#1a1c27;
-	padding:15px 22px;
+	background:#F8F8FF;
+  padding:15px 22px;
+  color:black;
 }
 
 ul.social-network {
@@ -1261,4 +1265,28 @@ a.scrollup:hover{
 	opacity:1;
 	background-color:#ddd;
 	color:#24292e;
+}
+
+.carousel-control.right{
+  background-image: none;
+}
+
+.carousel-control.left{
+  background-image: none;
+}
+
+.glyphicon-chevron-right{
+    color: black;
+}
+
+.glyphicon-chevron-left{
+  color: black;
+}
+
+.carousel-indicators li{
+  border: 1px solid black;
+}
+
+.carousel-indicators .active{
+  background-color : black
 }
