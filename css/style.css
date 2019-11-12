@@ -173,7 +173,8 @@ a:hover {
 	}
 
 	.menu {
-	 position: absolute;
+   /* position: absolute; */
+   width: 100%;
 		left: 0;
 		right: 0;
 		background: #fff;
